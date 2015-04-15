@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="logs">
+			<Node name="log0">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.5389499884"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{3F7BDCC5-1B7A-47EB-9ED8-C89A4D71631F}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_12_56 PM_05_278\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log1">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.5414218518"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{6C03B0E1-D8B9-48CD-92BE-511F44ADC3A7}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_12_59 PM_38_847\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log2">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.5423423495"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{9E626D8E-B635-496C-97E2-C9096E78AD10}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_01_00 PM_58_377\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log3">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.5473202083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{65E1830A-8436-47F1-84CB-3F84C6354D6E}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_01_08 PM_08_465\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log4">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.5896577431"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{2AB0FA6F-8218-4738-AA72-5CD247FD9905}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_02_09 PM_06_428\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log5">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.6890304977"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{9E9FBDA6-529C-4E80-93D2-20CDF2128E63}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_04_32 PM_12_233\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log6">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.6907879167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{F503E99B-CD13-44AE-BB03-4679A4E66A99}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_04_34 PM_44_74\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log7">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.7064685995"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{8CFD3254-BB5C-482E-A552-6381E2E4FFA7}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_04_57 PM_18_886\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log8">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42103.7618625347"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="8"/>
+				<Prp name="key" type="S" value="{E4639BEA-5B31-4E44-A2AB-2756FBA3B608}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="09-04-2015_06_17 PM_04_921\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log9">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42104.4593584838"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="9"/>
+				<Prp name="key" type="S" value="{29BBF76F-573B-4A43-A0D3-A3A169E8E045}"/>
+				<Prp name="nameofroot" type="S" value="ProjectSuite2"/>
+				<Prp name="relpath" type="S" value="10-04-2015_11_01 AM_28_571\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
